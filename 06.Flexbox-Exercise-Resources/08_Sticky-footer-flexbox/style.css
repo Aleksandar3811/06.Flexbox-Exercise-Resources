@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font: 16px/1.5 Verdana, sans-serif;
+}
+body{
+    display: flex;
+    background: rgb(238, 238, 238);
+    min-height: 100vh;
+    flex-direction: column;
+}
+main{
+    flex: 1 1 auto;
+    
+}
+header, main, footer{
+    padding: 1.5em 2em;
+    border: 1px solid black;
+}
+header{
+    flex: 1 1 100%;
+    padding-bottom: 2em;
+    font-family:Helvetica, sans-serif;
+   
+}
+p{
+    margin: 1em;
+}
+
+footer{
+    color: rgb(255,255,255);
+    background: rgb(102, 102,102);
+}
